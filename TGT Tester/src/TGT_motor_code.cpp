@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 #define DIR_PIN 2
 #define STEP_PIN 5
 #define ENABLE_PIN 6
@@ -5,6 +7,7 @@
 unsigned long startMillis;
 unsigned long currentMillis;
 const unsigned long period = 10; // total time of looping (s) for 1 hours
+
 void setup() {
   pinMode(STEP_PIN, OUTPUT);
   pinMode(DIR_PIN, OUTPUT);
