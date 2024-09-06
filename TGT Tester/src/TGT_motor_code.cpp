@@ -7,7 +7,7 @@
 
 unsigned long startMillis;  // Variable to store the start time
 unsigned long currentMillis; // Variable to store the current time
-const unsigned long period = 10; // Total time of looping (s) for 1 hour
+const unsigned long period = 60; // Total time of looping (s) for 1 hour
 
 void setup() {
   pinMode(STEP_PIN, OUTPUT);  // Set STEP_PIN as output
