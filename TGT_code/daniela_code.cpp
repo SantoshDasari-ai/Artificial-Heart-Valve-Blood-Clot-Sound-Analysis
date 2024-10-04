@@ -3,7 +3,7 @@
 // Define pin numbers for motor control
 constexpr int DIR_PIN = 2;    // Direction pin
 constexpr int STEP_PIN = 5;   // Step pin
-constexpr int ENABLE_PIN = 6; // Enable pin
+constexpr int ENABLE_PIN = 8; // Enable pin
 
 unsigned long startMillis;      // Variable to store the start time
 unsigned long currentMillis;    // Variable to store the current time
