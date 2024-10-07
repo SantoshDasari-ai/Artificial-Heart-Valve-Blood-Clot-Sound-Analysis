@@ -89,5 +89,4 @@ void loop() {
 
   // Counterclockwise rotation (simulate diastole)
   rotateMotor(false);
-  delay(CYCLE_DELAY); // Delay to simulate diastole phase
 }
